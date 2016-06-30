@@ -1,0 +1,359 @@
+/* div {
+    border: 1px solid red;
+} */
+
+/*------------- MAIN -------------*/
+
+body {
+    background: url(images/MergedLayers.png) no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    font-family: OpenSans;
+}
+
+span {
+    color: #fa5c65;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+ul {
+    text-transform: uppercase;
+}
+
+hr {
+    margin: 6px 0 15px;
+}
+
+.cont {
+    width: 980px;
+    margin: 0 auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*------------HEADER------------*/
+
+.header {
+    width: 100%;
+    height: 1040px;
+}
+.log_nav {
+    width: 100%;
+    height: 75px;
+}
+
+/*----- LOGOTYPE -----*/
+.logo {
+    float: left;
+    width: 40%;
+    padding-left: 25px;
+    height: inherit;
+}
+
+/*---- NAVIGATION ----*/
+.navig {
+    float: left;
+    width: 60%;
+    padding-top: 10px;
+    padding-left: 111px;
+    height: inherit;
+}
+.navig a {
+    color: #263642;
+    font: 700 14px;
+}
+.navig a:hover {
+    color: #fa5c65;
+}
+
+/*----- SLOGAN -----*/
+.slogan {
+    float: left;
+    width: 100%;
+    height: 963px;
+    padding-top: 260px;
+    padding-left: 25px;
+}
+.slogan h1 {
+    color: #314a5b;
+    font: 700 35.96px / 39.701px Montserrat;
+}
+.slogan p {
+    color: #314a5b;
+    font: 400 20px;
+}
+.slogan button {
+    padding: 10px 20px;
+    background-color: #fa5c65;
+    border: 2px solid #fa5c65;
+    border-radius: 5px;
+}
+.slogan button a{
+    color: white;
+    font-weight: 700;
+}
+
+
+/*------------CONTENT------------*/
+
+.content {
+    width: 100%;
+    height: 1140px;
+}
+
+.arr {
+    text-transform: uppercase;
+    color: #f0454c;
+}
+.arr:hover {
+    color: #f0454c;
+    font-weight: bold;
+}
+
+.advertising {
+    width: 100%;
+    height: 320px;
+}
+.peace {
+    float: left;
+    width: 33.33%;
+    height: inherit;
+    padding: 60px 45px 70px 50px;   
+}
+.peace h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.peace p {
+    text-align: justify
+}
+.free {
+    float: left;
+    width: 33.33%;
+    height: inherit;
+    padding: 60px 45px 70px 50px;
+}
+.free h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.free p {
+    text-align: justify
+}
+.simple {
+    float: left;
+    width: 33.33%;
+    height: inherit;
+    padding: 60px 45px 70px 50px;
+}
+.simple h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.simple p {
+    text-align: justify
+}
+
+.portfolio {
+    width: 100%;
+    height: 440px;
+}
+.portfolio h1 {
+    color: #314a5b;
+    font: 700 29.96px / 34.458px Montserrat;
+}
+.p_img {
+    float: left;
+    width: 40%;
+    height: inherit;
+}
+.p_text {
+    float: left;
+    width: 60%;
+    height: inherit;
+    padding: 30px 140px 151px 116px;
+}
+
+.team {
+    width: 100%;
+    height: 310px;
+}
+.h1_team {
+    float: left;
+    width: 100%;
+    height: 115px;
+}
+.h1_team h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+
+.joey {
+    float: left;
+    width: 33.33%;
+    height: 153px;
+}
+.joey_f {
+    float: left;
+    width: 40%;
+    height: inherit;
+    padding-top: 15px;
+}
+.joey_t {
+    float: left;
+    width: 60%;
+    height: inherit;
+    padding: 5px 35px 5px 25px;
+}
+.joey_t h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.matt {
+    float: left;
+    width: 33.33%;
+    height: 153px;
+}
+.matt_f {
+    float: left;
+    width: 40%;
+    height: inherit;
+    padding-top: 15px;
+}
+.matt_t {
+    float: left;
+    width: 60%;
+    height: inherit;
+    padding: 5px 35px 5px 25px;
+}
+.matt_t h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.mike {
+    float: left;
+    width: 33.33%;
+    height: 153px;
+}
+.mike_f {
+    float: left;
+    width: 40%;
+    height: inherit;
+    padding-top: 15px;
+}
+.mike_t {
+    float: left;
+    width: 60%;
+    height: inherit;
+    padding: 5px 35px 5px 25px;
+}
+.mike_t h1 {
+    color: #465065;
+    font: 700 26px / 26px Montserrat;
+}
+.red {
+    color: #f0454c;
+    font: 400 14px / 20px OpenSans;
+}
+
+.btn {
+    float: left;
+    padding-left: 895px;
+}
+
+
+
+
+
+/*------------- FOOTER -------------*/
+
+.footer {
+    width: 100%;
+    height: 75px;
+}
+
+.social {
+    float: left;
+    width: 50%;
+}
+
+.copy {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 175px;
+    color: #b9c1c6;
+    font-family: OpenSans;
+}
+
+
+/*---------------- END ----------------*/
+
+
+
+
+/*--------------- MEDIA ---------------*/
+
+@media (min-width: 980px) and (max-width: 1279px) {
+    
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+    
+}
+
+@media (min-width: 1366px) and (max-width: 1599px) {
+    
+}
+
+@media (min-width: 1600px) and (max-width: 1919px) {
+    .cont {
+        width: 1125px;
+    }
+    .header {
+        height: 1233px;
+    }
+    .navig {
+        padding-left: 175px;
+        padding-top: 17px;
+    }
+    .slogan {
+        height: 1157px;
+        padding-left: 30px;
+        padding-top: 345px;
+    }
+}
+
+@media (min-width: 1920px) {
+    /* div {
+        border: 1px solid red;
+    } */
+    .cont {
+    width: 1315px;
+    }
+    .header {
+    height: 1480px;
+    }
+    .logo {
+    padding-left: 45px;
+    }
+    .navig {
+    padding-left: 235px;
+    padding-top: 20px;
+    }
+    .slogan {
+    height: 1404px;
+    padding-top: 410px;
+    }
+}
